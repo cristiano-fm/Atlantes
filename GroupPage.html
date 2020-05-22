@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atlantes</title>
+    <link rel="icon" type="image/png" href="logo_trs.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body id="grid">
+    <section id="info-view">
+        <a href="MainPage.html">
+            <span id="sair-bt"><img src="arrow-left.png"> Voltar</span>
+        </a>
+        <h1 id="oi">ATLANTES</h1>
+        <p></p>
+        <h2>Sobre o grupo</h2>
+        <form>
+            <h5>Nº de pessoas</h5>
+            <p>201</p>
+            <h5>Idades</h5>
+            <p>dos 12 aos 45</p>
+            <h5>Sexo</h5>
+            <p>Masculino</p>
+            <h5>Nacionalidade</h5>
+            <p>Portugual</p>
+            
+        </form>
+
+         
+    </section>
+
+    <section id="map">
+        <section id="canvas-loc">
+            <canvas id="canvas"></canvas>
+        </section>
+    </section>
+
+    <section id="compare">
+        <h2 id="numb">6 Mil Folhas </h2>
+        <p id="med">Média de folhas de informação recolhidas</p>
+        <img id="arrow-up" class="arrow" src="arrow-up.png">
+        <div class="show" id="show-1">
+            <h4>Peso das folhas</h4>
+            <section>
+                <img id="peso" src="peso.png">
+                <h2 class="text-inside">4</h2>
+                <h3 id="legenda-1">kg</h3>
+                
+            </section>
+        </div>
+        <div class="show" id="show-2">
+            <h4>Altura da pilha de folhas</h4>
+            <section>
+                <img id="pilha" src="pilha.png">
+                <p id="legenda-2">1,20<b> metros</b></p>
+            </section>
+        </div>
+        <div class="show" id="show-3">
+            <h4>Área das folhas por campo de futebol</h4>
+            <section>
+                <img id="campo" src="campo.png">
+                <p id="legenda-3"><b>x </b>3</p>
+            </section>
+        </div>
+        <img id="arrow-down" class="arrow" src="arrow-down.png">
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.js"></script>
+    <script src="js/draw2.js"></script>
+    <script src="js/Actions.js"></script>
+</body>
+</html>

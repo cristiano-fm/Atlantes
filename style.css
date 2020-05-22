@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', Roboto, sans-serif;
+  background-color: #242424;
+  color: white;
+  overflow-y: hidden;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin: 0 auto;
+}
+
+#grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+#grid #control, #grid #info-view {
+  padding: 40px 40px 40px 60px;
+  height: 100vh;
+}
+
+#grid #map {
+  height: 100vh;
+  text-align: center;
+}
+
+#grid #compare {
+  height: 100vh;
+  padding: 20vh 60px 40px 40px;
+}
+
+#grid #compare #numb {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+#grid #compare #med {
+  margin: -8px 0 40px 0;
+  text-align: center;
+}
+
+#grid #compare div {
+  height: 250px;
+  width: 90%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5%;
+}
+
+#grid #compare div h4 {
+  margin: 0;
+}
+
+#grid #compare div section {
+  display: table;
+  margin: 40px auto;
+}
+
+#grid #compare div section h2 {
+  display: inline;
+}
+
+#start {
+  display: block;
+  text-align: center;
+}
+
+#canvas-loc {
+  display: inline-block;
+  margin-top: 28vh;
+  margin-left: -40px;
+}
+
+span {
+  display: block;
+  background-color: #4789c9;
+  text-align: center;
+  width: 50%;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 4px 0;
+  font-size: 18px;
+}
+
+span img {
+  display: inline-block;
+  height: 16px;
+  margin-bottom: -2px;
+  margin-left: 75px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#logo-start {
+  display: block;
+  margin: 100px auto 0px auto;
+  height: 60vh;
+}
+
+#bt-entrar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+input, select {
+  margin: 1px 0px 8px 0px;
+  border: 0px solid white;
+  border-radius: 6px;
+  height: 26px;
+  width: 50%;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-padding-start: 5px;
+          padding-inline-start: 5px;
+  font-family: 'Nunito', Roboto, sans-serif;
+}
+
+label {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+form {
+  margin-bottom: 26px;
+}
+
+form p {
+  font-size: 20px;
+  margin: 2px 0 25px 0;
+}
+
+.arrow {
+  width: 30px;
+  display: block;
+  margin: 10px auto;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+#show-2 {
+  display: none;
+}
+
+#show-3 {
+  display: none;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.text-inside {
+  color: #161616;
+  position: absolute;
+  margin-top: 46px;
+  margin-left: -18px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#peso {
+  position: absolute;
+  height: 130px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-left: -65px;
+}
+
+#legenda-1 {
+  position: absolute;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 110px;
+  margin-left: 70px;
+}
+
+#pilha {
+  position: absolute;
+  height: 155px;
+  margin-top: 5px;
+  margin-left: -120px;
+}
+
+#legenda-2 {
+  position: absolute;
+  font-weight: 500;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: -20px;
+}
+
+#legenda-2 b {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#campo {
+  position: absolute;
+  height: 130px;
+  margin-top: 14px;
+  margin-left: -135px;
+}
+
+#legenda-3 {
+  position: absolute;
+  font-weight: 500;
+  font-size: 50px;
+  margin-top: 93px;
+  margin-left: 105px;
+}
+
+#legenda-3 b {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#info-view {
+  padding: 40px 40px 40px 60px;
+  height: 100vh;
+}
+
+#sair-bt {
+  margin: 0px 0 20px 0;
+}
+
+#sair-bt img {
+  display: inline-block;
+  height: 16px;
+  margin-left: 0px;
+  margin-right: 105px;
+}
+
+#oi {
+  margin-top: 110px;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
